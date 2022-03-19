@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_food2021/loginpage.dart';
 import 'package:flutter_food2021/pages/home/home_page.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
